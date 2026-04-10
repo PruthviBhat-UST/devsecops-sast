@@ -1,4 +1,4 @@
-name: trivy-image-scan
+name: Basic_Trivy_Image_Scan
 
 on: 
   push:
@@ -7,14 +7,15 @@ on:
   
 jobs:
   scan:
-    name: build-and-scan
+    name: Build_and_Scan
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout the code
+      - name: Checkout
         uses: actions/checkout@v4
-      - name: dockerimage build
-        run: docker build -t myapp: ${{github.sha}} .
+
+      - name: BuildDockerImage
+        run: docker build -t myapp:${{ github.sha }} .
 
       - name: TrivyVulnerabilityScanner
         uses: aquasecurity/trivy-action@master
@@ -25,4 +26,3 @@ jobs:
           exit-code: '1'
           ignore-unfixed: true
           vuln-type: 'os,library'
-      

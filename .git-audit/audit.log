@@ -10,3 +10,9 @@ Author: Pruthvi Bhat(UST
 Message: trying trivy scan for docker images
 Time: Fri, Apr 10, 2026  3:16:49 PM
 ------------------------------
+------------------------------
+Commit: 7f8cfa1ffadfbe78cc0a4279437bfb05c139b84a
+Author: Pruthvi Bhat(UST
+Message: corrected the docker build
+Time: Fri, Apr 10, 2026  3:20:12 PM
+------------------------------
