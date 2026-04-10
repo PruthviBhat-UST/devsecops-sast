@@ -4,3 +4,9 @@ Author: Pruthvi Bhat(UST
 Message: testing 100
 Time: Wed, Apr  8, 2026  3:38:14 PM
 ------------------------------
+------------------------------
+Commit: 92370011b87f9a403f7528e5b26276724683e560
+Author: Pruthvi Bhat(UST
+Message: trying trivy scan for docker images
+Time: Fri, Apr 10, 2026  3:16:49 PM
+------------------------------
